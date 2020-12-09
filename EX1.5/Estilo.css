@@ -1,0 +1,48 @@
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #0a096b;
+    color: rgb(172, 151, 151);
+  }
+
+.flex-container {
+    display: flex;
+    background-color:#333191;
+    justify-content: center;
+  }
+
+.flex-container > div {
+    border: solid black;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .table_style {
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table_style th, td{
+    border: 2px solid black;
+}
+
+.div_style {
+  padding: 5px;
+  text-align: center;
+  background-color:#6765e4
+}
+
+.rodape{
+  padding: 40px;
+  text-align: center;
+  background-color:#908ff0;
+}
